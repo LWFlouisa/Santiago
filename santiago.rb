@@ -1,0 +1,57 @@
+require "ProjectSukyana"
+
+a = Language::Francais.npc_dialogue
+b = Language::Francais.lingua_de_ange
+c = Language::Francais.npc_dialogue
+d = Language::Francais.lingua_de_ange
+e = Language::Francais.npc_dialogue
+f = Language::Francais.lingua_de_ange
+g = Language::Francais.npc_dialogue
+h = Language::Francais.lingua_de_ange
+i = Language::Francais.npc_dialogue
+j = Language::Francais.lingua_de_ange
+k = Language::Francais.npc_dialogue
+l = Language::Francais.lingua_de_ange
+m = Language::Francais.npc_dialogue
+n = Language::Francais.lingua_de_ange
+o = Language::Francais.npc_dialogue
+p = Language::Francais.lingua_de_ange
+q = Language::Francais.npc_dialogue
+r = Language::Francais.lingua_de_ange
+s = Language::Francais.npc_dialogue
+t = Language::Francais.lingua_de_ange
+u = Language::Francais.npc_dialogue
+v = Language::Francais.lingua_de_ange
+w = Language::Francais.npc_dialogue
+x = Language::Francais.lingua_de_ange
+y = Language::Francais.npc_dialogue
+z = Language::Francais.lingua_de_ange
+
+santiago(:historical_trivia, a, b,
+         :historical_trivia, c, d,
+         :historical_trivia, e, f,
+         :historical_trivia, g, h,
+         :historical_trivia, i, j,
+         :historical_trivia, k, l,
+         :historical_trivia, m, n,
+         :historical_trivia, o, p,
+         :historical_trivia, q, r,
+         :historical_trivia, s, t,
+         :historical_trivia, u, v,
+         :historical_trivia, w, x,
+         :historical_trivia, y, z,
+         :historical_trivia, a, b,
+         :historical_trivia, c, d,
+         :historical_trivia, e, f,
+         :historical_trivia, g, h,
+         :historical_trivia, i, j,
+         :historical_trivia, k, l,
+         :historical_trivia, m, n,
+         :historical_trivia, o, p,
+         :historical_trivia, q, r,
+         :historical_trivia, s, t,
+         :historical_trivia, u, v,
+         :historical_trivia, w, x,
+         :historical_trivia, y, z)
+         
+puts $updated_information[0], $updated_information[1]
